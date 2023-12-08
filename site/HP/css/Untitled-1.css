@@ -1,0 +1,108 @@
+
+/*↓スマホ用*/
+@media screen and (max-width:480px) {
+    
+  .html{
+      font-size:100%;
+  }
+  
+  body{
+    display:flex;
+      width:100%;
+      background-color: aliceblue;
+      color: black;
+      margin:0 0 0 0;
+  }
+  
+  .f{
+      font-size:25px;
+      background-color:#00bfff; 
+      display:flex;  
+  }
+.wrapper{
+      margin: 0 auto 100px auto;
+      padding: 0 4%;
+      display:flex;
+  }
+  .Exim{
+  margin:0;
+  width:50px;
+  height:100%;
+  object-fit:cover;
+
+  }
+  .li{
+    display:inline;
+     list-style:none;
+     display:flex;
+
+  }
+  .a{
+      color: honeydew;
+      text-decoration: none;
+    
+  }
+  
+  .a:hover{
+      color: #1e90ff;
+  }
+  
+  
+  .h2 {
+   
+    display: inline-block;
+    padding: 0 65px;
+    text-align: center;
+  }
+  
+  .h2:before,
+  .h2:after {
+    
+    top: calc(50% - 3px);
+    width: 50px;
+    height: 6px;
+    content: '';
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    right: 0;
+  }
+  
+  .h2:before {
+    left: 0;
+  }
+  
+  
+  #about{
+      text-align: center;
+  
+  }
+  #Todo{
+      text-align: center;
+  }
+  #icon{
+      width: 200px;
+      height:200px;
+      border-radius:50%;
+  }
+  h3{
+      font-size:20px;
+  }
+  
+  .sec-title{
+      text-align: center;
+  }
+  
+  footer{
+      border-top: 1px solid #337ab7;
+      background-color: #f5f5f5;
+  }
+  footer p{
+      margin: 10px;
+      padding: 20px;
+  }
+  
+  #youbou{
+      color: #20b2aa;
+  }
+
+}
