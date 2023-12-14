@@ -124,12 +124,12 @@ margin-bottom:0;
   padding:0;
   margin:0;
 }
-.myname{
+.my_name{
   display:flex;
   align-items: center; /* 垂直中心 */
   justify-content: center; 
 }
-.myname:before, .myname:after {
+.my_name:before, .my_name:after {
   border-top: 1px solid #000;
   content: "";
   width: 3em; /* 線の長さ */
